@@ -21,6 +21,7 @@ public class WorkingWithDirectLocators2 {
 		// it will click somewhere because of multiple input now find how many input files are there
 		//in home page
 		List<WebElement> tn = driver.findElements(By.tagName("input"));
+		//Checking from Github
 		System.out.println(tn.size());
 		driver.quit();
 		
